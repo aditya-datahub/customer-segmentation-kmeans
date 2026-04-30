@@ -2,6 +2,12 @@
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-segmentation-kmeans-fvwdncezsdbxmvysklthrb.streamlit.app)
 
+## 🌐 Live Demo
+
+👉 https://customer-segmentation-kmeans-fvwdncezsdbxmvysklthrb.streamlit.app
+
+---
+
 ## 📌 Project Overview
 
 This project performs **customer segmentation** using **K-Means Clustering** on retail customer data.
@@ -28,7 +34,7 @@ This project clearly separates **raw input data** and **processed output data**:
 ### 🔹 Processed Output
 
 * `data/customer_segments_output.csv`
-* Generated after applying clustering
+* Generated after applying **K-Means clustering**
 * Includes a new **"Segment"** column with customer group labels
 
 📌 Workflow:
@@ -49,6 +55,7 @@ segmentation.py (Streamlit App)
         ↓
 customer_segments_output.csv
 ```
+
 ---
 
 ## 🛠️ Tech Stack
@@ -59,32 +66,40 @@ customer_segments_output.csv
 
 ## 📊 Steps Performed
 
-1. Data Cleaning
+1. **Data Cleaning**
 
    * Handled missing values and duplicates
    * Removed outliers using IQR
 
-2. Feature Engineering
+2. **Feature Engineering**
 
    * Created meaningful features like total spending
 
-3. Exploratory Data Analysis (EDA)
+3. **Exploratory Data Analysis (EDA)**
 
    * Distribution plots
    * Correlation analysis
 
-4. Clustering
+4. **Clustering**
 
    * Used **Elbow Method** and **Silhouette Score** to find optimal clusters
    * Applied **K-Means Clustering**
 
-5. Dimensionality Reduction
+5. **Dimensionality Reduction**
 
    * Used **PCA** for visualization
 
-6. Deployment
+6. **Deployment**
 
    * Built an interactive **Streamlit app** for live predictions
+
+---
+
+## 🧪 How to Use
+
+1. Enter customer details (age, income, spending, etc.)
+2. Click **Predict Segment**
+3. View the predicted customer category
 
 ---
 
@@ -139,7 +154,7 @@ customer-segmentation-eda/
 
 * Add more features for better segmentation
 * Try advanced clustering (DBSCAN, Hierarchical)
-* Deploy app online (Streamlit Cloud)
+* Improve UI/UX of the Streamlit app
 
 ---
 
