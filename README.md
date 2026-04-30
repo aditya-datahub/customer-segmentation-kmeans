@@ -36,26 +36,23 @@ This project clearly separates **raw input data** and **processed output data**:
 
 ## 🔄 Project Pipeline
 
+```text
 raw_customer_data.csv
-↓
-customer_segmentation.ipynb (EDA + Feature Engineering)
-↓
+        ↓
+customer_segmentation.ipynb
+(EDA + Feature Engineering)
+        ↓
 KMeans Model (kmeans_model.pkl + scaler.pkl)
-↓
+        ↓
 segmentation.py (Streamlit App)
-↓
+        ↓
 customer_segments_output.csv
-
+```
 ---
 
 ## 🛠️ Tech Stack
 
-* **Python**
-* **Pandas, NumPy**
-* **Matplotlib, Seaborn**
-* **Scikit-learn (KMeans, PCA, StandardScaler)**
-* **Streamlit**
-* **Joblib**
+`Python` • `Pandas` • `NumPy` • `Matplotlib` • `Seaborn` • `Scikit-learn (KMeans, PCA, StandardScaler)` • `Streamlit` • `Joblib`
 
 ---
 
