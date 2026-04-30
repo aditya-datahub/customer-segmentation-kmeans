@@ -1,5 +1,7 @@
 # 🛍️ Customer Segmentation using K-Means Clustering
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-segmentation-kmeans-fvwdncezsdbxmvysklthrb.streamlit.app)
+
 ## 📌 Project Overview
 
 This project performs **customer segmentation** using **K-Means Clustering** on retail customer data.
