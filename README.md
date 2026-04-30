@@ -39,8 +39,7 @@ This project clearly separates **raw input data** and **processed output data**:
 ```text
 raw_customer_data.csv
         ↓
-customer_segmentation.ipynb
-(EDA + Feature Engineering)
+customer_segmentation.ipynb (EDA + Feature Engineering)
         ↓
 KMeans Model (kmeans_model.pkl + scaler.pkl)
         ↓
